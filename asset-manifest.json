@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/MyWebsite/static/css/main.b55d4c19.css",
+    "main.js": "/MyWebsite/static/js/main.3e0b6045.js",
+    "static/media/fantasybetsdemo.gif": "/MyWebsite/static/media/fantasybetsdemo.90b2826f4fa4cfe8022e.gif",
+    "static/media/muqudemo.gif": "/MyWebsite/static/media/muqudemo.1883f5c3bd583745f5b8.gif",
+    "static/media/cardemo.gif": "/MyWebsite/static/media/cardemo.f8181cd9da3188519746.gif",
+    "static/media/facepic.png": "/MyWebsite/static/media/facepic.f098a07d3ab2fe6c9d41.png",
+    "static/media/resume.pdf": "/MyWebsite/static/media/resume.29bff39b7997d25582a7.pdf",
+    "static/media/fantasybets.png": "/MyWebsite/static/media/fantasybets.d011b328ad43eccd395f.png",
+    "static/media/car.png": "/MyWebsite/static/media/car.e44c8da87520ad85c234.png",
+    "static/media/github.png": "/MyWebsite/static/media/github.b59201ef2ff446316717.png",
+    "static/media/linkedin.png": "/MyWebsite/static/media/linkedin.d3ed6c2538e931daacaf.png",
+    "static/media/muqu.png": "/MyWebsite/static/media/muqu.69aebaa90e7f7474ce1f.png",
+    "index.html": "/MyWebsite/index.html",
+    "main.b55d4c19.css.map": "/MyWebsite/static/css/main.b55d4c19.css.map",
+    "main.3e0b6045.js.map": "/MyWebsite/static/js/main.3e0b6045.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b55d4c19.css",
+    "static/js/main.3e0b6045.js"
+  ]
+}
