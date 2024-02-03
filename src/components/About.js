@@ -18,13 +18,13 @@ const About = () => {
         <div className='flex w-full h-full mt-4'>
           <div className='w-full h-3/4 bg-gray-300 mr-10 rounded-lg hover:scale-105 duration-200 font-bold'>
             <p className='text-xl text-black pt-2 pl-2 pb-2 border-b-2 border-gray-500'>This is Me</p>
-            <p className='text-lg pt-2 pl-2 pb-4 text-gray-600'>
+            <p className='text-lg pt-2 pl-2 pb-4 text-gray-700'>
               Hi! I am an Undergraduate student studying CS at Purdue University who has unlimited passion for software engineering.  
             </p>
-            <p className='text-lg pt-2 pl-2 pb-4 text-gray-600'>
+            <p className='text-lg pt-2 pl-2 pb-4 text-gray-700'>
               Experienced in fullstack web development, desktop app development, and mobile development. 
             </p>
-            <p className='text-lg pt-2 pl-2 pb-4 text-gray-600'>
+            <p className='text-lg pt-2 pl-2 pb-4 text-gray-700'>
               I love participating in Hackathons and working on personal projects to better myself in the field and make creative ideas come to fruition. 
             </p>
           </div>
@@ -33,7 +33,7 @@ const About = () => {
 
             {roles.map(({role, org}) => (
               <div className='flex flex-col justify-center items-center'>
-                <p className='text-lg pt-2 text-gray-600'>
+                <p className='text-lg pt-2 text-gray-700'>
                   {role}
                 </p>
                 <p className='text-sm pb-2 text-gray-500'>

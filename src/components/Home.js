@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+
+import facepic from '../assets/facepic.png';
 
 const Home = () => {
     return (
@@ -12,9 +14,7 @@ const Home = () => {
                         Fullstack Engineer | Mobile Engineer | Graphics Engineer
                     </p>
                 </div>
-                <div className='bg-gray-300 rounded-2xl mx-10 w-1/3 h-1/2 hover:scale-105 duration-200'>
-
-                </div>
+                <img src={facepic} alt='' className='bg-gray-300 rounded-2xl mx-10 w-1/3 hover:scale-105 duration-200' />
             </div>
         </div>
     )

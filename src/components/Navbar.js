@@ -5,6 +5,8 @@ import {Link} from 'react-scroll';
 import github from '../assets/github.png';
 import linkedin from '../assets/linkedin.png';
 
+import resume from '../assets/resume.pdf';
+
 const Navbar = () => {
     const links = [
         { id: 0, link: "Home"},
@@ -35,7 +37,9 @@ const Navbar = () => {
                         <Link to={link} smooth duration={400}>{link}</Link>
                     </li>
                 ))}
+                <li onClick={() => window.open(resume, '_blank')} className='text-xl px-4 cursor-pointer border-l-2 text-gray-200 hover:scale-125 duration-200'>Resume</li>
             </ul>
+
         </div>
     )
 }
