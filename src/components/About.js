@@ -16,19 +16,21 @@ const About = () => {
             <p className='text-4xl font-bold inline border-b-4 border-gray-400'>About Me</p>
         </div>
         <div className='flex w-full h-full mt-4'>
-          <div className='w-full h-3/4 bg-gray-300 mr-10 rounded-lg hover:scale-105 duration-200 font-bold'>
+          <div className='w-full h-full bg-gray-300 mr-10 rounded-lg hover:scale-105 duration-200 font-bold'>
             <p className='text-xl text-black pt-2 pl-2 pb-2 border-b-2 border-gray-500'>This is Me</p>
-            <p className='text-lg pt-2 pl-2 pb-4 text-gray-700'>
-              Hi! I am an Undergraduate student studying CS at Purdue University who has unlimited passion for software engineering.  
-            </p>
-            <p className='text-lg pt-2 pl-2 pb-4 text-gray-700'>
-              Experienced in fullstack web development, desktop app development, and mobile development. 
-            </p>
-            <p className='text-lg pt-2 pl-2 pb-4 text-gray-700'>
-              I love participating in Hackathons and working on personal projects to better myself in the field and make creative ideas come to fruition. 
-            </p>
+            <div className='flex flex-col justify-center items-center text-center'>
+              <p className='text-lg pt-2 pl-2 pb-4 text-gray-700'>
+                Hi! I am an Undergraduate student studying CS at Purdue University who has unlimited passion for software engineering.  
+              </p>
+              <p className='text-lg pt-2 pl-2 pb-4 text-gray-700'>
+                Experienced in fullstack web development, desktop app development, and mobile development. 
+              </p>
+              <p className='text-lg pt-2 pl-2 pb-4 text-gray-700'>
+                I love participating in Hackathons and working on personal projects to better myself in the field and make creative ideas come to fruition. 
+              </p>
+            </div>
           </div>
-          <div className='w-full h-3/4 bg-gray-300 rounded-lg hover:scale-105 duration-200 font-bold'>
+          <div className='w-full h-full bg-gray-300 rounded-lg hover:scale-105 duration-200 font-bold'>
             <p className='text-xl text-black pt-2 pl-2 pb-2 border-b-2 border-gray-500'>Experience</p>
 
             {roles.map(({role, org}) => (

@@ -26,7 +26,7 @@ const Contact = () => {
             <button type='submit' name='submit' className='mb-2 p-3 rounded-xl bg-gray-400 text-gray-800 text-xl'>Send</button>
           </form>
         </div>
-        <p className='text-4xl pb-4'>↓</p>
+        <p className='text-4xl pb-4'>↓ scroll</p>
       </div>
     </div>
   )
