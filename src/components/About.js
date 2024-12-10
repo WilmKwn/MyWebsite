@@ -2,9 +2,8 @@ import React from 'react'
 
 const About = () => {
   const roles = [
-    { role: 'Incoming Fullstack Engineer Intern', org: 'GSA (General Services Administration)' },
-    { role: 'Software Developer Apprentice', org: 'Sledgehammer Infosystems, Inc.' },
-    { role: 'Software Intern', org: 'SCALE' },
+    { role: 'Software Engineer Intern', org: 'Fifth Third Bank' },
+    { role: 'Software Engineer Intern', org: 'U.S. General Services Administration' },
     { role: 'Course Instructor', org: 'Purdue Computer Science' },
     { role: 'Undergraduate Teaching Assistant', org: 'Purdue Computer Science' },
   ]

@@ -16,7 +16,7 @@ const Navbar = () => {
     ];
 
     const githubLink = 'https://github.com/WilmKwn';
-    const linkedinLink = 'https://www.linkedin.com/in/william-kwon-63b375243/';
+    const linkedinLink = 'https://www.linkedin.com/in/wilmkwn';
 
     return (
         <div className='flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed z-10'>
@@ -37,7 +37,8 @@ const Navbar = () => {
                         <Link to={link} smooth duration={400}>{link}</Link>
                     </li>
                 ))}
-                <li onClick={() => window.open(resume, '_blank')} className='text-xl px-4 cursor-pointer border-l-2 text-gray-200 hover:scale-125 duration-200'>Resume</li>
+                <a className='text-xl px-4 cursor-pointer text-gray-200'>|</a>
+                <a onClick={() => window.open(resume, '_blank')} className='text-xl px-4 cursor-pointer text-gray-200 hover:scale-125 duration-200'>Resume</a>
             </ul>
 
         </div>

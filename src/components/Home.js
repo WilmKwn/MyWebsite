@@ -8,10 +8,10 @@ const Home = () => {
             <div className='max-w-screen-lg mx-auto flex flex-row items-center justify-center h-full px-4'>
                 <div className='flex flex-col justify-center hover:scale-105 duration-200'>
                     <h2 className='text-5xl font-bold text-white'>
-                        10x Software Engineer
+                        Software Engineer
                     </h2>
                     <p className='text-lg text-gray-300 py-4 max-w-md mt-10'>
-                        Fullstack Engineer | Mobile Engineer | Graphics Engineer
+                        Fullstack Engineer | AWS Cloud Engineer
                     </p>
                 </div>
                 <img src={facepic} alt='' className='bg-gray-300 rounded-2xl mx-10 w-1/3 hover:scale-105 duration-200' />
