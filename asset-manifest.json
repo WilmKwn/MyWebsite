@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MyWebsite/static/css/main.b40b6582.css",
-    "main.js": "/MyWebsite/static/js/main.06adaf2e.js",
+    "main.css": "/MyWebsite/static/css/main.a609f1fe.css",
+    "main.js": "/MyWebsite/static/js/main.d9c06163.js",
     "static/media/fantasybetsdemo.gif": "/MyWebsite/static/media/fantasybetsdemo.90b2826f4fa4cfe8022e.gif",
     "static/media/muqudemo.gif": "/MyWebsite/static/media/muqudemo.1883f5c3bd583745f5b8.gif",
     "static/media/cardemo.gif": "/MyWebsite/static/media/cardemo.f8181cd9da3188519746.gif",
@@ -13,11 +13,11 @@
     "static/media/linkedin.png": "/MyWebsite/static/media/linkedin.d3ed6c2538e931daacaf.png",
     "static/media/muqu.png": "/MyWebsite/static/media/muqu.69aebaa90e7f7474ce1f.png",
     "index.html": "/MyWebsite/index.html",
-    "main.b40b6582.css.map": "/MyWebsite/static/css/main.b40b6582.css.map",
-    "main.06adaf2e.js.map": "/MyWebsite/static/js/main.06adaf2e.js.map"
+    "main.a609f1fe.css.map": "/MyWebsite/static/css/main.a609f1fe.css.map",
+    "main.d9c06163.js.map": "/MyWebsite/static/js/main.d9c06163.js.map"
   },
   "entrypoints": [
-    "static/css/main.b40b6582.css",
-    "static/js/main.06adaf2e.js"
+    "static/css/main.a609f1fe.css",
+    "static/js/main.d9c06163.js"
   ]
 }
